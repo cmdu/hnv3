@@ -1,4 +1,65 @@
 baseURL: ""
-languageCode: en-us
-title: My New Hugo Site
-theme: "PaperMod"
+languageCode: de
+title: "Hyper Normal"
+description: Integration für junge Creatives
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  ShowReadingTime: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  defaultTheme: auto
+  showBreadCrumbs: true
+  label:
+    icon: "img/hn.png"
+    text: " "
+    iconHeight: 29
+
+  homeInfoParams:
+    Title: Integration für junge Creatives
+    Content: Wir bereiten Jugendliche und junge Erwachsene aus dem neurodiversen Spektrum oder einer moderat beeinträchtigten psychischen Gesundheit auf eine reguläre gestalterische Berufslehre oder ein Kunsthochschulstudium vor und finden mit ihnen einen passenden Ausbildungsplatz.
+
+  outputs:
+    home:
+      - HTML
+      - RSS
+      - JSON # is necessary
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: atelier
+      name: Atelier
+      url: /atelier/
+      weight: 10
+    - identifier: team
+      name: Team
+      url: /team/
+      weight: 20
+    - identifier: faq
+      name: FAQ
+      url: /faq/
+      weight: 30
+    - identifier: supporter
+      name: Support us!
+      url: /supporter/
+      weight: 30
