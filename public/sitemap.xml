@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>/</loc>
+    <lastmod>2022-07-15T18:45:35+02:00</lastmod>
+  </url><url>
+    <loc>/posts/</loc>
+    <lastmod>2022-07-15T18:45:35+02:00</lastmod>
+  </url><url>
+    <loc>/posts/second/</loc>
+    <lastmod>2022-07-15T18:45:35+02:00</lastmod>
+  </url><url>
+    <loc>/supporter/</loc>
+    <lastmod>2022-07-15T18:43:27+02:00</lastmod>
+  </url><url>
+    <loc>/faq/</loc>
+    <lastmod>2022-07-15T18:42:58+02:00</lastmod>
+  </url><url>
+    <loc>/team/</loc>
+    <lastmod>2022-07-15T18:42:50+02:00</lastmod>
+  </url><url>
+    <loc>/atelier/</loc>
+    <lastmod>2022-07-15T18:41:45+02:00</lastmod>
+  </url><url>
+    <loc>/posts/hello/</loc>
+    <lastmod>2022-07-15T15:55:55+02:00</lastmod>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/search/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url>
+</urlset>
